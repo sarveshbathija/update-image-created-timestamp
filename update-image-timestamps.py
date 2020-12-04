@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 import piexif
 
-rootdir = '/Users/sarveshbathija/test'
+rootdir = '/Users/myHomeDirectory/allMyPictures'
 
 for  subdir, dirs, files in os.walk(rootdir):
     directory = os.path.relpath(subdir)
